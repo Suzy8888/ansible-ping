@@ -1,0 +1,7 @@
+---
+- name: Ping Hosts
+  hosts: aws
+  gather_facts: false
+
+  roles:
+    - ping

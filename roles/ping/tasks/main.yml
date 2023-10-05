@@ -1,0 +1,8 @@
+---
+- name: Ping the hosts
+  ping:
+  register: ping_result
+
+- name: Display the ping results
+  debug:
+    var: ping_result
